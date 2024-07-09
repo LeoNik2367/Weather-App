@@ -4,7 +4,7 @@ Using the three building blocks of HTML, CSS, and JavaScript, this project demon
 
 ## 🚀 Live Demo
 
-Check out the live version of the app [MY WEATHER APP](https://weather-app-delta-neon.vercel.app)
+Check out the live version of the app [MY WEATHER APP](https://weather-app-delta-neon.vercel.app).
 
 ## 🛠️ Tech Stack
 
@@ -24,26 +24,24 @@ Check out the live version of the app [MY WEATHER APP](https://weather-app-delta
 This project is deployed on Vercel. Follow these steps to deploy your own version:
 
 1. **Fork the Repository**: Click the fork button on the top right of the repository page to create a copy in your GitHub account.
-2. **Clone the Repository**: 
+2. **Clone the Repository**:
     ```sh
     git clone https://github.com/your-username/Weather-App.git
     cd Weather-App
     ```
-3. **Install Dependencies**: 
-    ```sh
-    npm install
-    ```
-4. **Set Up API Key**:
-    - Create a `.env` file in the root directory.
-    - Add your OpenWeatherMap API key:
-      ```sh
-      REACT_APP_WEATHER_API_KEY=your_api_key_here
+3. **Set Up API Key**:
+    - Open the `main.js` file.
+    - Replace the placeholder `process.env.REACT_APP_WEATHER_API_KEY` with your actual OpenWeatherMap API key:
+      ```js
+      const apiKey = 'your_api_key_here';
       ```
-5. **Deploy on Vercel**:
-    - Create a new project on Vercel.
-    - Import your GitHub repository.
-    - Set the environment variable `REACT_APP_WEATHER_API_KEY` in the Vercel dashboard.
-    - Deploy the project.
+
+4. **Deploy on Vercel**:
+    - Sign up or log in to Vercel.
+    - Click on the **New Project** button.
+    - Select your GitHub repository.
+    - Configure the project settings (if needed) and click on **Deploy**.
+    - Your app will be live on a Vercel URL once the deployment is complete.
 
 ## 🔧 Further Improvements
 
@@ -55,3 +53,4 @@ This project is deployed on Vercel. Follow these steps to deploy your own versio
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue.
+
