@@ -4,7 +4,7 @@ Using the three building blocks of HTML, CSS, and JavaScript, this project demon
 
 ## 🚀 Live Demo
 
-Check out the live version of the app (https://weather-app-delta-neon.vercel.app).
+Check out the live version of the app [Weather App](https://weather-app-pink-two-52.vercel.app).
 
 ## 🛠️ Tech Stack
 
